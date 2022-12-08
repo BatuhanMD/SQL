@@ -1,5 +1,9 @@
 S1 -> SELECT title,description FROM film
+
 S2 -> SELECT * FROM film WHERE length > 60 AND length <75
+
 S3 -> SELECT * From film WHERE rental_rate = 0.99 AND replacement_cost = 12.99 OR replacement_cost = 14.99 
+
 S4 -> last_name = 'Smith'
+
 S5 -> SELECT * From film WHERE NOT length > 50 AND NOT (rental_rate = 2.99 OR  rental_rate = 4.99)
